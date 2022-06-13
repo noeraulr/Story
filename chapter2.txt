@@ -1,0 +1,7 @@
+So let's go ahead and create some text files.  
+Windows:
+C: \users\noera_000\Desktop\Story>type nul > chapter2.txt
+So I'm going to use touch to create a file called chapter1.txt, and then I'm going to open  chapter1.txt.  
+
+Now, on Windows, instead of using open as the command, it's start.
+start chapter2.txt

@@ -1,0 +1,19 @@
+Initialize git
+So to initialize git, we simply write git init.  And as you can see, it's initialized an empty git repository inside the story directory.  
+
+C: \users\noera_000\Desktop\Story>git init
+
+•	dir/a should show hidden folders.
+•	dir /a:d shows all directories.
+•	dir /a:h shows all hidden files.
+Try dir /adh (without the colon) to combine.
+
+Now, if you have a look inside Finder, you actually can't see this .git at all.  But as we learned before, if you use ls -a, you can see all the hidden files and you can see that  .git is right there  and it's going to be used to track all your changes, to commit your changes, and to perform version  control.  
+So we're currently inside the story directory and you can also call this the working directory.  
+So as I mentioned before, using git and learning about version control, it comes with some of its own  terminology and language.  So I'm going to try and debunk and simplify a lot of these terms that you'll come across just so that  we can all be on the same page and we all understand what's going on.  
+
+So currently we are inside the working directory, which is the story directory.  
+C: \users\noera_000\Desktop\Story>
+
+And here, in order to start tracking the changes of my files, for example, chapter1.txt,  then I need to add this file to what's called a staging area and that is basically an intermediate place where you can pick and choose which files inside your working  directory that you want to commit. 
+

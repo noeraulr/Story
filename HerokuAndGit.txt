@@ -1,0 +1,14 @@
+Deploying Web Apps
+
+Heroku 	Inxochitl01 22/Sep/22
+Gunicorn Version 20.1
+
+Git C:\Users\noera_000\AppData\Local\Programs\Git Password:Inxochitl01 22/Sep/22
+
+Open de Applicaction form 
+C:\Users\noera_000\AppData\Local\Programs\Git\git-bash.exe
+
+Go to home directory
+cd ~  [alt 126]
+
+ 

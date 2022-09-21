@@ -1,1 +1,57 @@
-Ejercicio01
+PyCharmTipsJul2022
+
+Press Alt+Mayús+F10 to access the list of Run/Debug configurations on the main toolbar without using the mouse.
+
+Use type hinting to inform PyCharm about the expected types of parameters, local variables, fields, or return values.
+When the expected type is specified as a docstring, PyCharm provides code completion that suggests elements of the corresponding type:
+
+ 
+Press Ctrl+E (View | Recent Files) to view the list of recently opened files.
+ 
+You can also bring up the results of the recently performed usage searches. To do that, use the same Ctrl+E shortcut within the Find tool window, and select the desired search result from the Recent Find Usages popup.
+
+ 
+Ctrl+Click (on Windows and Linux) / Cmd + Click (on macOS) a tab in the editor to navigate to any part of the file path. Select the necessary element in the list, and the corresponding file path opens in the file browser.
+
+ 
+To quickly open any class in the editor, press Ctrl+N (Navigate | Class) and start typing the name of the class. Then, click the class from the suggestion list.
+ 
+Similarly, you can open any file in your project by using Ctrl+Mayús+N (Navigate | File ).
+
+The navigation bar at the top is a quick alternative to the Project tool window where you can go through the structure of your project, open specific files, and jump to specific code elements in the current file.
+Press Alt+Inicio to show the navigation bar and use arrow keys to switch between files and folders.
+
+Use text patterns in Search Everywhere (double Shift) when searching for a class, file, or symbol. Use * and space:
+* stands for any number of arbitrary characters.
+space marks the end of a pattern. The preceding string is considered not just a prefix but a whole pattern.
+
+
+To check which line separators are used in the current file, look at the status bar:
+
+While debugging, you may need an interactive console at hand... This is mostly easy. During debugging, switch to the Debugger Console, and then press the lowest button in its toolbar.
+The console becomes interactive and it shows a prompt, where you can enter commands and view output. 
+
+To quickly open any class, field, or function in the editor, press Ctrl+Alt+Mayús+N (Navigate | Symbol) and start typing its name.
+
+To quickly open a file, press Ctrl+Mayús+N (Navigate | File) and start typing its name. Use the filter icon to only search among the selected file types:
+
+The TODO tool window lets you preview each of the encountered TODO items - click   on the toolbar.
+
+To access all VCS-related commands available in the current context, press Alt+`.
+
+When using basic code completion Ctrl+Espacio, you don't need to type the upper-case letters in CamelHump names. It is enough to type the initial letters of the camel names in lower case, and they will be smartly recognized.
+
+To discover the purpose of an item in the main menu, hover your mouse over it and view its short description in the status bar at the bottom of the application window.
+
+PyCharm Community includes a built-in IDE Features Trainer. It provides interactive training courses to help you learn how to do some common tasks, such as refactoring code, navigating through projects, debugging, and working with version control.
+Make sure the IDE Features Trainer plugin is enabled in the Installed tab of the Plugins page in the IDE settings.
+To open the Learn tool window and start your exercises, select View | Tool Windows | Learn or Help | Learn IDE Features from the main menu. The tool window lists the available tutorials.
+
+You can override IDE code style settings with settings from EditorConfig (https://editorconfig.org/ ).
+To use EditorConfig settings, you must install and enable the EditorConfig plugin. To configure the style in EditorConfig, open settings (Ctrl+Alt+S ), navigate to Editor | Code Style and select the Enable EditorConfig support checkbox.
+
+To export the current IDE code style settings into the .editconfig file, click Export.
+
+Use Code | Inspect Code to run code analysis for the whole project or a custom scope and examine the results in a separate window.
+
+To select multiple text fragments, press and hold Shift+Alt (Windows and Linux) and Shift+Alt (Option) (macOS) and drag your mouse across the text:

@@ -1,0 +1,47 @@
+If there are multiple run/debug configurations of the same type, you can group them into folders to distinguish them visually.
+
+You can open an external file for editing by dragging it from a file browser to the editor.
+
+To select multiple fragments in the column mode Alt+Mayús+Insertar, press and hold Ctrl+Alt+Shift (Windows and Linux) and Ctrl+Alt(Option)+Shift (macOS), and drag the mouse:
+
+Press Shift twice to search for files, actions, symbols, UI elements, Git branches and comments across your project. Pressing double Shift again, will extend the search to non-project items.
+Use tabs or direct shortcuts Ctrl+N for classes, Ctrl+Mayús+N for files, Ctrl+Alt+Mayús+N for symbols, and Ctrl+Mayús+A for actions to narrow your search results.
+
+Use text patterns in Search Everywhere (double Shift) when searching for a class, file, or symbol. Use * and space:
+* stands for any number of arbitrary characters.
+space marks the end of a pattern. The preceding string is considered not just a prefix but a whole pattern
+
+You can evaluate simple arithmetical expressions with the Search Everywhere window (Shift twice).
+Enter an expression you want to evaluate in the search field. The result will be displayed in the search results.
+
+Scratch files are temporary files that let you experiment and prototype in the editor, without creating any project files.
+To create a scratch file, press Ctrl+Alt+Mayús+Insertar, and then select the language to use.
+
+If loading variables during debugging takes a long time, you might see the Loading timed out warning messages.
+Click the Switch to loading on demand link in the Variables window to switch to the mode when variables are loaded on user's request.
+
+To join two lines into one and remove unnecessary spaces, press Ctrl+Mayús+J.
+
+ 
+To disable the lens, right-click the code analysis marker at the top of the scrollbar and clear the Show code lens on scrollbar hover checkbox.
+
+ 
+To preview code without actually scrolling to it, hover your mouse pointer over a warning, error stripe, or just some section of source code on the scrollbar, and you will see a lens:
+ 
+To disable the lens, right-click the code analysis marker at the top of the scrollbar and clear the Show code lens on scrollbar hover checkbox.
+
+ 
+You can use Ctrl+Q (View | Quick Documentation), Ctrl+P (View | Parameter Info), Ctrl+B (Navigate | Declaration), and similar shortcuts not only in the editor but also in the suggestions list while using code completion.
+
+The Code | Move Statement Up/Down actions are useful for reorganizing code lines, for example for bringing a variable declaration closer to the variable usage.
+Select a code fragment and press Ctrl+Mayús+Arriba or Ctrl+Mayús+Abajo.
+The following picture shows the initial location of a code fragment:
+ 
+The results of moving the selected fragment up:
+ 
+And the results of moving the selected fragment down:
+ 
+When nothing is selected in the editor, the line at the caret position will be moved. 
+
+To close all editor tabs, right-click a tab and select Close All Tabs.
+To close all tabs except the active one, press Alt (Windows and Linux) or Alt(Option) (macOS) and click the Close button on the active tab.

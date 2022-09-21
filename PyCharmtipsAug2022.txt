@@ -1,0 +1,48 @@
+You can use Ctrl+Q (View | Quick Documentation ), Ctrl+P (View | Parameter Info ), Ctrl+B (Navigate | Declaration ), and similar shortcuts not only in the editor but also in the suggestions list while using code completion.
+
+To split changes made to the same file between different commits, in the Commit tool window Alt+0 click Diff. Select the checkbox next to each chunk of modified or new code that you want to commit and click Commit. Unselected changes will stay in the current changelist.
+
+
+To select several words, press and hold Alt (Option), and double-click each word you want to select.
+
+You can customize the structure of import statements in your code. Imports can be placed separately, grouped by source, or left unstructured.
+To make your choice, go to Settings/Preferences (Ctrl+Alt+S, select Editor | Code style | Python, and select the corresponding checkbox under Structure of "from" imports.
+
+To select several words, press and hold Alt (Option), and double-click each word you want to select.
+
+ 
+You can open an external file for editing by dragging it from a file browser to the editor.
+ 
+To avoid accidentally removing breakpoints, you can choose to remove them by dragging them from the gutter. Press Ctrl+Alt+S, go to Build, Execution, Deployment | Debugger and select Drag to the editor or click with middle mouse button.
+Click a breakpoint to enable or disable it.
+
+ 
+When some words are missing in the pre-defined dictionaries, you can create your own. A custom dictionary is a .dic text file containing each word on a new line.
+To add new directories, open settings by pressing Ctrl+Alt+S and navigate to Editor | Natural Languages | Spelling.
+
+Working in the interactive consoles, you don't need to memorise the command line syntax or available functions. Instead, you can use the familiar code completion Ctrl+Espacio. Moreover, from within the lookup list, you can press Ctrl+Q to view the item's documentation.
+
+You can quickly navigate in the currently edited file with Ctrl+F12 (Navigate | File Structure ).
+File structure shows the list of members of the current class. To navigate to an element, select the element and press Intro or F4.
+To easily locate an item in the list, start typing its name.
+
+To quickly open any class, field, or function in the editor, press Ctrl+Alt+Mayús+N (Navigate | Symbol) and start typing its name.
+ 
+When some words are missing in the pre-defined dictionaries, you can create your own. A custom dictionary is a .dic text file containing each word on a new line.
+To add new directories, open settings by pressing Ctrl+Alt+S and navigate to Editor | Natural Languages | Spelling.
+
+Click   on the Python console toolbar to open the command queue. In the Python Console Command Queue dialog, review the list of commands and delete a command from the queue.
+
+If you have already spent some time working in the interactive consoles, you don't need to re-type the previously entered commands to repeat them. Instead, press Ctrl+Arriba/Ctrl+Abajo (on Window/Linux) and Up/Down array buttons (on macOS) to scroll through the history of commands.
+ 
+PyCharm Community provides a quick-fix that automatically installs the package you are trying to import: if, after the import keyword, you type a name of a package that is not currently available on your machine, a quick-fix suggests to either ignore the unresolved reference, or download and install the missing package.
+
+To join two lines into one and remove unnecessary spaces, press Ctrl+Mayús+J.
+
+Apply the differences between panes in the Differences viewer using the chevron buttons:    
+To append the contents of the current pane to the other pane, keep Ctrl pressed. The buttons will change to    .
+To revert changes, keep Shift pressed. The chevrons turn into  .
+
+To quickly select the currently edited element (a class, file, method, or field) in another view, press Alt+F1 or call Navigate | Select In.
+
+Working in the interactive consoles, you don't need to memorise the command line syntax or available functions. Instead, you can use the familiar code completion Ctrl+Espacio. Moreover, from within the lookup list, you can press Ctrl+Q to view the item's documentation.
